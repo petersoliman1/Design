@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+nav {
+    position: absolute;
+    z-index: 1;
+	height: 100px;
+    padding: 44px 100px;
+}
+
+nav.black {
+	background: rgba(0,0,0,.8);
+	height: 80px;
+	padding: 10px 50px;
+
+}
+
+/* navbar logo */
+nav .logo {
+	float: left;
+}
+
+nav .logo img {
+	height: 80px;
+}
+
+/* navbar black img logo*/
+nav.black .logo img {
+	height: 60px;
+}
+
+/* End navbar logo */
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+    color: #627178;
+	line-height: 80px;
+	padding: 5px 20px;
+	text-decoration: none;
+	transition: .5s;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* navbar black li */
+nav.black ul li a {
+	color: #fff;
+	line-height: 60px;
+}
+
+nav ul li a.active{
+    border-bottom: 3px solid #92278f;
+    border-radius: 10px;
+}
+nav ul li a:hover {
+    color:#ffffff;
+    background-color: #92278f;
+    border-radius: 10px;
+}
+/*button*/
+.link{
+    position: absolute;
+    top: 64px;
+    left: 1006px;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 53px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.link:hover{
+    color:#ffffff;
+    background-color: #92278f;
+}
+
+/* End Navbar */
+/*Start Backgrund and Heading*/
+.Backgrund img{
+    width: 100%;
+    height: 600px;
+}
+
+.landing{
+    position: absolute;
+    top: 75px;
+    left: 650px;
+}
+
+.landing img{
+    width: 604px;
+    height: 588px;
+}
+
+.Man{
+    position: absolute;
+    top: 88px;
+    left: 783px;
+}
+
+.Man img{
+    width: 283px;
+    height: 450px;
+}
+
+.clouds{
+    position: absolute;
+    top: 403px;
+    left: 776px;
+}
+.clouds img{
+    width: 364px;
+    height: 300px;
+}
+
+.waves{
+    position: absolute;
+    top: 517px;
+    right: 291px;
+    left: -146px;
+}
+
+.waves img{
+    height: 117px;
+}
+/*Start Heading*/
+.Heading-Backgrund{
+    position: absolute;
+    top: 250px;
+    margin-left: 140px;
+    color: #627178;
+}
+
+.Heading-Backgrund h1{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.Heading-Backgrund h1 span{
+    color: #92278f;
+}
+
+.Heading-Backgrund p{
+    font-size: 20px;
+    width: 65%;
+    line-height: 1.4;
+}
+/*End Heading and Heading*/
+/*Start second section*/
+.Container{
+    position: relative;
+}
+
+.Container .line{
+    display: flex;
+}
+
+.Container .line img{
+    width: 70%;
+    margin: 40px 191px;
+}
+/*photo-01*/
+.photo-01{
+    position: absolute;
+    top: 86px;
+    left: 94px;
+}
+
+.photo-01 img{
+    width: 50%;
+}
+
+.photo-01 h3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 31px;
+}
+
+.photo-01 p{
+    font-size: 16px;
+    width: 50%;
+    line-height: 1.3;
+    margin-left: 10px;
+    color: #627178;
+}
+
+/*photo-02*/
+.photo-02{
+    position: absolute;
+    top: 201px;
+    left: 508px;
+}
+
+.photo-02 img{
+    width: 50%;
+}
+
+.photo-02 h3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 31px;
+}
+
+.photo-02 p{
+    font-size: 16px;
+    width: 63%;
+    line-height: 1.4;
+    text-align: center;
+    color: #627178;
+}
+
+/*photo-03*/
+.photo-03{
+    position: absolute;
+    top: 456px;
+    left: 860px;
+}
+
+.photo-03 img{
+    width: 50%;
+}
+
+.photo-03 h3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 65px;
+}
+
+.photo-03 p{
+    font-size: 16px;
+    width: 72%;
+    line-height: 1.4;
+    margin-left: -33px;
+    color: #627178;
+}
+
+/*photo-03*/
+.photo-04{
+    position: absolute;
+    top: 493px;
+    left: 100px;
+}
+
+.photo-04 img{
+    width: 60%;
+}
+
+.photo-04 p{
+    font-size: 19px;
+    width: 72%;
+    line-height: 1.4;
+    color: #ffffff;
+    margin-top: -173px;
+    margin-left: 67px;
+}
+
+.photo-04 h1{
+    font-size: 30px;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+    margin-left: 70px;
+    text-shadow: rgb(0 0 0 / 40%) 4px 13px 20px;
+}
+
+/*End second section*/
+
+/*Star third section*/
+.Container-01{
+    display: flex;
+    margin-top: 347px;
+    justify-content: center;
+}
+/*End third section*/
+
+/*Start paragraph*/
+.Container-paragraph{
+    text-align: center;
+    color: #627178;
+    margin-top: -24px;
+}
+
+.Container-paragraph h2{
+    color: #51585c;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.Container-paragraph p{
+    font-size: 19px;
+    width: 16%;
+    margin-left: 537px;
+}
+/*End paragraph*/
+
+/*Start Button Stor Section*/
+.button-stor{
+    position: absolute;
+    display: flex;
+    margin-left: 100px;
+    top: 359%;
+}
+
+.button-app img,
+.button-play img{
+    vertical-align: middle;
+}
+
+.button-app a,
+.button-play a{
+    background-color: rgb(255, 255, 255);
+    padding: 13px 10px 14px 9px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.button-play a{
+    margin-left: 40px;
+}
+
+.button-app a:hover,
+.button-play a:hover{
+    color: #92278f;
+}
+/*End Button Stor Section*/
+
+/*Start Contact Section*/
+.Social{
+    position: absolute;
+    display: flex;
+    margin-left: 105px;
+    top: 368%;
+}
+
+.Social .instagram,
+.Social .facebook,
+.Social .whatsapp{
+    margin-right: 16px;
+}
+/*End Contact Section*/
+
+/*Start BottomNav Section*/
+.bottomnav{
+    position: absolute;
+    top: 374%;
+    left: 90px;
+}
+
+.bottomnav a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.bottomnav a:hover {
+    color: #92278f;
+}
+/*End BottomNav Section*/
+/*Start Background section*/
+.Background img{
+    position: absolute;
+    width: 46%;
+    margin-left: 626px;
+    padding-top: 54px;
+}
+
+.Background-Background{
+    background-image: url(../images/Group\ 1131.png);
+    background-repeat: repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 448px;
+}
+/*End Background section*/
+
+/* Start Footer */
+.footer{
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.75rem 1.25rem;
+    border-top: 2px solid #fff;
+}
+
+.footer .copyright{
+	font-size: 18px;
+}
+
+.copyright span{
+	color: #00CCFF;
+}
+/* End Footer */
